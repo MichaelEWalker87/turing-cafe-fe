@@ -1,3 +1,6 @@
 .reservation-card{
-    background:
+    background-color:  rgba(212, 211, 202, 0.943);
+    border-color: rgba(62, 156, 233, 0.943);
+    border-width: 0.25 rem;
+    border-style: solid;
 }
