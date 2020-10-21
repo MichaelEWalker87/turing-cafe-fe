@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Reservations from '../Reservations/Reservations.jsx'
+import  PropTypes  from 'prop-types';
 
 class App extends Component {
   render() {
@@ -9,8 +11,8 @@ class App extends Component {
         <div className='resy-form'>
         </div>
         <div className='resy-container'>
-          
         </div>
+        <Reservations />
       </div>
     )
   }
